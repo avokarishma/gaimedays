@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" type="images/icon" href="assets/images/favicon.ico">
+    <title>My Team</title>
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header class="header-container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <a href="./" class="logo-link">
+                    </a>
+                </div>
+
+                <div class="menu-toggle-btn"></div>
+
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a href="./">Homepage</a></li>
+                        <li><a href="playing-guide">Playing Guide</a></li>
+                        <li><a class="active-link" href="leagues">Play now</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact-us">Contact Us</a></li>
+                    </ul>
+                    <a href="signup" class="btn signup-btn">Sign Up</a>
+                    <a href="login" class="btn login-btn">Login</a>
+                    <div class="profile">
+                        <div class="avatar">
+                            <div class="avatar-content">
+                                <a href="#">
+                                    <div class="profile-image"></div>
+                                    <span>Test123</span>
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                </svg>
+                            </div>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="my-profile">
+                                            <div class="profile-dropdown-options profile-image-dropdown"></div>My
+                                            Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="my-matches">
+                                            <div class="profile-dropdown-options profile-image-stadium"></div>My Matches
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="profile-dropdown-options profile-image-logout"></div>Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-close-btn"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!--Leagues Pages Banner Section Start -->
+    <section class="pages-banner leagues-pages  bg-cover bg-no-repeat">
+        <div class="container">
+            <div class="banner-content">
+                <ul class="leagues-ul">
+                    <li class="inline-list home-list">
+                        <h3>
+                            <a href="./">Homepage</a>
+                        </h3>
+                    </li>
+                    <li class="inline-list next-page-list">
+                        <h3>
+                           My Team
+                        </h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Leagues Pages Banner Section End -->
+
+   <!-- Leagues Content Section Start -->
+   <section class="american_leagues my-team-page">
+    <div class="container">
+        <div class="american_leagues-inner">
+            <div class="back-btn">
+                <a href="matches-details">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#000">
+                        <path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z"></path>
+                    </svg>
+                </a>
+            </div>
+            <h2>2024-25 Season</h2>
+
+            <div class="team-view-sec">
+                <div class="team-view-header">
+                    <h4>
+                        Choose Your Captain and Vice Captain
+                    </h4>
+                    <ul>
+                        <li>
+                            <span class="c-logo"> C </span>
+                            <div class="c-details">
+                                <h6>Captain Gets</h6>
+                                <p>2X (Double Points)</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="c-logo"> VC </span>
+                            <div class="c-details">
+                                <h6>Vice-Captain Gets</h6>
+                                <p>1.5X (Double Points)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="american_leagues-inner-content">
+                <div class="team-view-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Points</th>
+                                <th scope="col">% C By</th>
+                                <th scope="col">% VC By</th>
+
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Lionel Messi</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Cristiano Ronaldo</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Thierry Henry</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain" data-league_id="69">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Lamar Jackson</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Zinedine Zidane</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Luka Modrić</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div> 
+                                </td>
+                                <td>
+                                    <h6>Kylian Mbappé</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Andrés Iniesta</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Dak Prescott</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+
+
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>Jalen Hurts</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="player-dp">
+                                    <div class="player-dp-inner"></div>
+                                </td>
+                                <td>
+                                    <h6>CJ Stroud</h6>
+                                </td>
+                                <td class="my-team-captain">
+                                    <span class="c-logo">C</span>
+                                    <p class="team_captain">
+                                        <button class="plus player-toggle">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="my-team-vice-captain">
+                                    <span class="c-logo">VC</span>
+                                    <p class="team_captain team_vice_captain">
+
+                                        <button class="plus player-toggle" data-event="vice_plus">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
+                                        <button class="minus player-toggle d-none">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                    </p>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="team-btns">
+                    <a href="#" id="save-team-btn" class="next-btn">Save</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Leagues Content Section End -->
+    
+     <!-- Footer Start -->
+     <footer class="footer py-5">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-blocks footer-disclaimer">
+                    <div class="logo-bottom">
+                        <a href="/"></a>
+                    </div>
+                </div>
+                <div class="footer-blocks footer-menus">
+                    <h3>
+                        Menu
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="./">
+                                Homepage
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./personal-data-policy">
+                                Personal Data Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-conditions">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-blocks footer-socials">
+                    <h3>
+                        Social Tags
+                    </h3>
+                    <div class="social-tags-container">
+                        <a class="social-icons social-fb">
+                            <div class="social-ikons fb"></div>
+                        </a>
+                        <a class="social-icons social-twitter">
+                            <div class="social-ikons twitter"></div>
+                        </a>
+                        <a class="social-icons social-insta">
+                            <div class="social-ikons insta">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-ssl-wrap">
+                <div class="copyright-wrap">
+                    <p>
+                        Copyright &copy; 2024 gaimedays.com All Rights Reserved.
+                    </p>
+                </div>
+                <div class="ssl-container">
+                    <div class="ssl-logo bg-center bg-contain bg-no-repeat h-100 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

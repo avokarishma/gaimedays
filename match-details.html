@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" type="images/icon" href="assets/images/favicon.ico">
+    <title>Match Details</title>
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header class="header-container">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <a href="./" class="logo-link">
+                    </a>
+                </div>
+
+                <div class="menu-toggle-btn"></div>
+
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a href="./">Homepage</a></li>
+                        <li><a href="playing-guide">Playing Guide</a></li>
+                        <li><a class="active-link" href="leagues">Play now</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact-us">Contact Us</a></li>
+                    </ul>
+                    <a href="signup" class="btn signup-btn">Sign Up</a>
+                    <a href="login" class="btn login-btn">Login</a>
+                    <div class="profile">
+                        <div class="avatar">
+                            <div class="avatar-content">
+                                <a href="#">
+                                    <div class="profile-image"></div>
+                                    <span>Test123</span>
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                                </svg>
+                            </div>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="my-profile">
+                                            <div class="profile-dropdown-options profile-image-dropdown"></div>My
+                                            Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="my-matches">
+                                            <div class="profile-dropdown-options profile-image-stadium"></div>My Matches
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="profile-dropdown-options profile-image-logout"></div>Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-close-btn"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!--Leagues Pages Banner Section Start -->
+    <section class="pages-banner leagues-pages  bg-cover bg-no-repeat">
+        <div class="container">
+            <div class="banner-content">
+                <ul class="leagues-ul">
+                    <li class="inline-list home-list">
+                        <h3>
+                            <a href="./">Homepage</a>
+                        </h3>
+                    </li>
+                    <li class="inline-list next-page-list">
+                        <h3>
+                            My Players
+                        </h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Leagues Pages Banner Section End -->
+
+    <!-- Leagues Content Section Start -->
+    <section class="american_leagues match-details-page">
+        <div class="container">
+            <div class="american_leagues-inner">
+                <div class="back-btn">
+                    <a href="my-matches" class="back-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#000">
+                            <path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Component Start -->
+                <h1 class="font-medium">
+                    My Players
+                </h1>
+                <div class="flex flex-col mt-6">
+                    <div class="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                        <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                            <div class="palyer-header">
+                                <div class="team-logo">
+                                    <div class="matche-details-logo matche-details-logo1"></div>
+                                    <h6>Acroni Jesenice</h6>
+                                </div>
+                                <div class="match-details">
+                                    <!-- 
+                                    <h6></h6>
+                                    <p></p>
+                                     -->
+                                    <span>2024-09-26 05:00 pm</span>
+                                </div>
+
+                                <div class="team-logo">
+                                    <div class="matche-details-logo matche-details-logo2"></div>
+                                    <h6>KHL Sisak</h6>
+                                </div>
+                            </div>
+
+                            <div class="matches-table">
+                                <div class="div-tbl">
+                                    <table class="table table-light table-striped table-hover table-sm">
+                                        <thead class=" text-uppercase">
+                                            <tr>
+                                                <th scope="col">Team</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Position</th>
+                                                <th scope="col">Score</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>M. Wyllie</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>F</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>G. Sykes</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>F</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>L. Taaffe</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>F</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>K. Wilkes</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>M</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>G. Soulya-Osekanongo</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>M</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>J. Okotcha</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>D</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>J. Richmond</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>D</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>E. Coker</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>D</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>F. Rushton</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>G</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>K. Bailey</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>D</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="match-team-logo match-details-logo">
+                                                    <img src="assets/images/MajorLeagueSoccer.png" alt="">
+                                                </td>
+                                                <td class="player-name">
+                                                    <p>J. Adeoye</p>
+                                                </td>
+                                                <td class="match-position">
+                                                    <p>D</p>
+                                                </td>
+                                                <td class="match-score">
+                                                    <h6>0</h6>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Component End  -->
+            </div>
+        </div>
+    </section>
+    <!-- Leagues Content Section End -->
+
+     <!-- Footer Start -->
+     <footer class="footer py-5">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-blocks footer-disclaimer">
+                    <div class="logo-bottom">
+                        <a href="/"></a>
+                    </div>
+                </div>
+                <div class="footer-blocks footer-menus">
+                    <h3>
+                        Menu
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="./">
+                                Homepage
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./personal-data-policy">
+                                Personal Data Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms-conditions">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-blocks footer-socials">
+                    <h3>
+                        Social Tags
+                    </h3>
+                    <div class="social-tags-container">
+                        <a class="social-icons social-fb">
+                            <div class="social-ikons fb"></div>
+                        </a>
+                        <a class="social-icons social-twitter">
+                            <div class="social-ikons twitter"></div>
+                        </a>
+                        <a class="social-icons social-insta">
+                            <div class="social-ikons insta">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-ssl-wrap">
+                <div class="copyright-wrap">
+                    <p>
+                        Copyright &copy; 2024 gaimedays.com All Rights Reserved.
+                    </p>
+                </div>
+                <div class="ssl-container">
+                    <div class="ssl-logo bg-center bg-contain bg-no-repeat h-100 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
